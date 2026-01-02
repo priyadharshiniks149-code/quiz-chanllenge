@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <center><h1 id="heading">Quiz Master</h1></center>
+         <a href="about.html" class="link">About This game</a>
+        <br><br><br>
+      
+       
+        <div id="start-screen" class="screen active">
+            
+            <button class="Option" id="Option1">Easy</button>
+            <button class="Option" id="Option2">Moderate</button>
+            <button class="Option" id="Option3">Hard</button>
+             
+            
+        </div>
+
+
+        <script>
+        const option1 = document.getElementById("Option1");
+        option1.addEventListener("click", function () {
+            window.location.href = "easy.html";
+            });
+
+        const option2 = document.getElementById("Option2");
+        option2.addEventListener("click", function () {
+            window.location.href = "medium.html";
+            });
+
+        
+        const option3 = document.getElementById("Option3");
+        option3.addEventListener("click", function () {
+            window.location.href = "hard.html";
+            });
+        </script>
+
+
+
+    </body>
+  
+
+</html>

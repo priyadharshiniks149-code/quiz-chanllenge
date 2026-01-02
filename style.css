@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+
+html {
+  background-image: url("assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.screen.active{
+    display: grid;
+    grid-template-rows: 50px 50px 70px;
+    grid-template-columns: auto;
+
+     justify-content: center;
+    align-items: center;
+    
+    gap: 30px;
+
+
+}
+.link{
+    display: flex; 
+    justify-content: center;
+    text-decoration: none;
+    color:#4f46e5;
+}
+h1{
+    color: #4F46E5;
+}
+.Option{
+    border-radius: 5px;
+    height: 55px;
+    width: 300px;
+    border-style:solid ;
+    
+    border-width: 4px;
+   
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+.Option {
+  background-color: #EEF2FF;   
+  border: 2px solid #6366F1;   
+}
+
+.Option{
+    color: #6366F1;
+}
+
